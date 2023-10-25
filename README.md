@@ -1,91 +1,51 @@
-# Module 11 Challenge: Professional README Generator
+Professional-README-Generator
+Table-of-Contents
+Description
 
-## Your Task
+Installation
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. 
+Usage
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+Contributing
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README Guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) as a reminder of everything that a high-quality, professional README should contain. 
+Tests
 
-The application will be invoked by using the following command:
+Questions
 
-```bash
-node index.js
-```
+Description
+My project is a README generator. The project will help a user generate a README without having to worry about applying proper mark down syntax.
 
-## User Story
+One problem with most projects is that the README is overlooked. This could be because the developer is lazy and doesn't want to include it or they haven't mastered down the proper syntax to creating a README. Also they possibly don't have a good idea of what to include with the README.
 
-* As a developer, I want a README generator so that I can quickly create a professional README for a new project
+This README generator will allow the user to answer a series of specific questions and create a professional complete README based on their responses. It will take a couple minutes and provide the developer with the ability to make their project complete and more professional, increasing the likely hood that someone will want to use their app over similar apps without a README.
 
-## Acceptance Criteria
+Installation
+Click the repository link below. Download the zip file and copy it to a directory of your choice or clone to a directory of your choice using your terminal. Open the file in VS Code or whatever editor you work with. Open the terminal in VS Code and make sure you’re in the root directory ‘challenge-9-professional-README-generator. You’ll now be ready to run the app!
 
-* Create a command-line application that accepts user input.
-  * When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
-    * The title of my project 
-    * Sections entitled:
-      * Description 
-      * Table of Contents 
-      * Installation 
-      * Usage 
-      * License 
-      * Contributing 
-      * Tests 
-      * Questions
-    * When a user enters the project title then it is displayed as the title of the README
-    * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
-    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-    * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
+README Generator Download Link
 
-## Getting Started
+ZIP file download Tutorial
 
-Here are some guidelines to help you get started:
+Git Clone download Tutorial
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+Tutorial on how to use app
 
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
+README Screenshot No License README Screenshot No License
 
-## Grading Requirements
+README Screenshot with License README Screenshot with License
 
-This Challenge is graded based on the following criteria: 
+Usage
+After installation is complete, run the following code: ‘node inex.js’ in the terminal. Answer the prompts and after completion, you should see a console log showing your answers to your prompts, a message that says ‘File created!’, and you should see your file under the ‘dist’ folder called ‘generatedREADME’. It’s generated in mark down syntax so you can copy and paste that code into your project!
 
-### Deliverables: 20%
+For more information on how to add screenshots for examples, visit the following website:
 
-* A sample README generated using the application must be submitted.
+Mark Down Tutorial
 
-* Your GitHub repository containing your application code.
+Contributing
+Thank you for your interest in helping out; however, I will not be accepting contributions from third parties.
 
-### Technical Acceptance Criteria: 55%
+Tests
+To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder ‘challenge-9-professional-README-generator’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file in the ‘dist’ folder.
 
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-### Repository Quality: 25%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Questions
+Please contact me using the following links:
